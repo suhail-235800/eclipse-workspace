@@ -1,0 +1,25 @@
+package training;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class nostrng {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int c=0;
+		List <String> l = new ArrayList <String> ();
+		l.add("apple");
+		l.add("banana");
+		l.add("grape");
+		for(String f:l) {
+			
+			if(f.length()>5) {
+				c++;
+			}
+		}
+		System.out.println("no of strings is:");
+		
+	}
+
+}

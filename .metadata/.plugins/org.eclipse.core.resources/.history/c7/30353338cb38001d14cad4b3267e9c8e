@@ -1,0 +1,14 @@
+package sept20;
+
+public class replaceword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String s1="a batman with bat";  
+		String replaceString=s1.replaceAll("bat","snow");//replaces all occurrences of "is" to "was"  
+		System.out.println(replaceString);  
+	}
+
+}
