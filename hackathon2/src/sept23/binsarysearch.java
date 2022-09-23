@@ -1,7 +1,5 @@
 package sept23;
 
-import java.util.LinkedList;
-
 public class binsarysearch {
 
 	public static int binarySearch(int[] nums, int flag) {
@@ -21,7 +19,7 @@ public class binsarysearch {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 
 		int[] nums = { 1, 5, 6, 7, 8, 11 };
 		int search_num = 7;
