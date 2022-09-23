@@ -3,7 +3,7 @@ package sept20;
 public class largestandsmallest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 
 		String a="hey Welcome all";
 		String ar[]=a.split(" ");
